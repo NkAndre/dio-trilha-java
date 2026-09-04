@@ -10,6 +10,8 @@ public class TipoVariaveis {
         System.out.println(idade);
         System.out.println(nome);
 
+        double VALOR_PI = 3.14;
+
 
     }
 }
