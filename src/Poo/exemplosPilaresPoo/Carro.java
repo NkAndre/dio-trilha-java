@@ -1,6 +1,16 @@
 package Poo.exemplosPilaresPoo;
 
-public class Carro {
+public class Carro extends Veiculo {
+    private String chasse;
+
+    public String getChasse(){
+        return chasse;
+    }
+
+    public void setChasse(String chasse) {
+        this.chasse = chasse;
+    }
+
     public void ligar(){
         confereCambio();
         confereCombustivel();
