@@ -1,4 +1,4 @@
-package Poo.exemplosPilaresPoo.Concessionaria;
+package Poo.exemplosPilaresPoo.concessionaria;
 
 public class Autodromo extends Veiculo {
     public static void main(String[] args) {

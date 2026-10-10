@@ -1,4 +1,4 @@
-package Poo.exemplosPilaresPoo.Concessionaria;
+package Poo.exemplosPilaresPoo.concessionaria;
 
 public class Moto extends Veiculo {
 
