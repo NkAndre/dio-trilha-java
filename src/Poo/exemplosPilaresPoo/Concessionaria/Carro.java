@@ -1,4 +1,4 @@
-package Poo.exemplosPilaresPoo;
+package Poo.exemplosPilaresPoo.Concessionaria;
 
 public class Carro extends Veiculo {
     private String chasse;
