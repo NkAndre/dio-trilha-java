@@ -35,4 +35,23 @@ public class ListaTarefa {
         System.out.println(tarefaList);
 
     }
+
+    public static void main(String[] args) {
+
+        ListaTarefa listaTarefa = new ListaTarefa();
+        System.out.println("o numero total de tarefas é : " + listaTarefa.obterNumeroTotalTarefas());
+
+        listaTarefa.adicionarTarefa("tarefa 1");
+        listaTarefa.adicionarTarefa("tarefa 2");
+        listaTarefa.adicionarTarefa("tarefa 2");
+        System.out.println("o numero total de tarefas é : " + listaTarefa.obterNumeroTotalTarefas());
+
+        listaTarefa.removerTarefa("tarefa 1");
+        System.out.println("o numero total de tarefas é : " + listaTarefa.obterNumeroTotalTarefas());
+
+        listaTarefa.obterDescricoesTarefas();
+
+
+
+    }
 }
